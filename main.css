@@ -1,0 +1,42 @@
+#headblack{
+  background-image: url(img/BGblack.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+}
+#headwhite{
+  background-image: url(img/BGwhite.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25vh;
+}
+#footerblack{
+  background-image: url(img/BGblack.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15vh;
+}
+#footerwhite{
+  background-image: url(img/BGwhite.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15vh;
+}
+#bodyhome{
+  background-image: url(img/BGwhite.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
+#bodyabout{
+  background-image: url(img/BGblack.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60vh;
+}
