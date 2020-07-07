@@ -15,11 +15,15 @@ body{
 #logo{
   font-family: "MajorMonoDisplay";
   font-weight: bolder;
-  font-size: 75px;
+  font-size: 80px;
   letter-spacing: -18px;
 }
+.navbar{
+  font-size: 20px;
+}
 .dropdown-menu{
-  background: none;
+  border: none;
+  background: transparent;
   margin: 0;
   padding: 0;
   width: 50%;
@@ -98,4 +102,30 @@ background: linear-gradient(0deg, rgba(23,23,23,1) 0%, rgba(179,179,179,1) 32%, 
   background-size: cover;
   min-height: 60vh;
   max-height: 100%;
+}
+#bgabout{
+margin: 20px 0;
+background: rgb(235,235,235,0.5);
+background: radial-gradient(circle, rgba(235,235,235,0.5) 12%, rgba(179,179,179,0.5) 55%, rgba(23,23,23,0.5) 89%);
+border-radius: 25px;
+}
+#bgcontact{
+  margin: 20px 0;
+  background: rgb(235,235,235,0.5);
+  background: radial-gradient(circle, rgba(235,235,235,0.5) 12%, rgba(179,179,179,0.5) 55%, rgba(23,23,23,0.5) 89%);
+  border-radius: 25px;
+}
+.bgcard{
+  /* margin: 20px 0; */
+  background: rgb(235,235,235,0.5);
+  background: radial-gradient(circle, rgba(235,235,235,0.5) 12%, rgba(179,179,179,0.5) 55%, rgba(23,23,23,0.5) 89%);
+}
+.btn{
+  background-color: #D4AF37DD;
+}
+#logoa{
+  color: #D4AF37;
+}
+.gold{
+  color: #D4AF37;
 }

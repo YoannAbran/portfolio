@@ -8,10 +8,10 @@ include "headwhite.php";
 
 <div class="carousel d-flex flex-column justify-content-center">
 	<figure class="img-fluid">
-		<img src="img/laptop.jpg" alt="">
-		<img src="img/article.jpg" alt="">
-		<img src="img/projet.jpg" alt="">
-		<img src="img/article.jpg" alt="">
+		<a href="pokebomb.php"><img class="img-fluid" src="img/screenBomb.png" alt=""></a>
+		<a href="int-barmy.php"><img class="img-fluid" src="img/screenBarmy1.png" alt=""></a>
+		<a href="explofichier.php"><img class="img-fluid" src="img/screenExplo.png" alt=""></a>
+		<a href="int-bislite.php"><img class="img-fluid" src="img/screenBislite1.png" alt=""></a>
 	</figure>
 	<nav class = "d-flex justify-content-center">
 		<button class="nav prev">Prev</button>

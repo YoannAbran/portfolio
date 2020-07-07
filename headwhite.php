@@ -5,7 +5,7 @@
 <div class="d-flex  col-6">
 
 
-<nav class="navbar navbar-expand-lg navbar-light align-self-start p-4">
+<nav class="navbar navbar-expand-lg navbar-light align-self-start pt-4 ">
  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
    <span class="navbar-toggler-icon"></span>
  </button>
@@ -38,8 +38,8 @@
 </nav>
 </div>
 <div class="d-flex flex-column text-dark col-6">
- <h1 class="align-self-end p-4" id="logo">YA</h1>
- <h2 class="pl-4">Portfolio Yoann Abran</h2>
+ <h1 class="align-self-end p-4" id="logo">Y<span id="logoa">A</span></h1>
+ <h2 class=" d-none d-lg-block align-self-end pl-4"><span class="gold">Portfolio</span> Yoann Abran</h2>
 </div>
 </div>
 </header>

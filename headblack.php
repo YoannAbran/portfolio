@@ -7,10 +7,10 @@
 
 
 
-<div class="d-flex justify-content-end col-6">
+<div class="d-flex  col-6">
 
 
-<nav class="navbar navbar-expand-lg navbar-dark align-self-start p-4 ">
+<nav class="navbar navbar-expand-lg navbar-dark align-self-start pt-4 ">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -23,12 +23,12 @@
         <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Projets
         </a>
-        <div class="dropdown-menu dropdown-menu-xs-right" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="projets.php">Acceuil Projets</a>
-          <a class="dropdown-item" href="int-barmy.php">Intégration Barmy</a>
-          <a class="dropdown-item" href="int-bislite.php">Intégration Bislite</a>
-          <a class="dropdown-item" href="explofichier.php">Explorateur de fichier</a>
-          <a class="dropdown-item" href="pokebomb.php">Pokébomb</a>
+        <div class="dropdown-menu text-light " aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item text-light" href="projets.php">Acceuil Projets</a>
+          <a class="dropdown-item text-light" href="int-barmy.php">Intégration Barmy</a>
+          <a class="dropdown-item text-light" href="int-bislite.php">Intégration Bislite</a>
+          <a class="dropdown-item text-light" href="explofichier.php">Explorateur de fichier</a>
+          <a class="dropdown-item text-light" href="pokebomb.php">Pokébomb</a>
         </div>
       </li>
       <li class="nav-item">
@@ -41,9 +41,9 @@
   </div>
 </nav>
 </div>
-<div class="text-light col-6">
-  <h1 class="p-4" id="logo">YA</h1>
-  <h2 class="pl-4">Portfolio Yoann Abran</h2>
+<div class="d-flex flex-column text-light col-6">
+  <h1 class="align-self-end p-4" id="logo">Y<span id="logoa">A</span></h1>
+  <h2 class=" d-none d-lg-block align-self-end pl-4"><span class="gold">Portfolio</span> Yoann Abran</h2>
 </div>
 </div>
  </header>
