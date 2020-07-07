@@ -3,9 +3,14 @@
 include "header.php";
 include "headblack.php";
 ?>
-<div class="d-flex justify-content-around mt-5 mb-5" id=" bodyhome">
+<div class="bodywhite container-fluid d-flex align-items-center justify-content-center " >
 
-  <div class="card text-white bg-secondary" style="width: 20rem;">
+
+<div class=" container card-deck d-flex justify-content-around " >
+<div class=" container row row-cols-1 row-cols-md-3">
+
+
+  <div class="card text-white bg-secondary  " >
     <img src="img/projet.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Projets</h5>
@@ -14,7 +19,7 @@ include "headblack.php";
     </div>
   </div>
 
-  <div class="card text-white bg-secondary" style="width: 20rem;">
+  <div class="card text-white bg-secondary " >
     <img src="img/laptop.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">À propos de moi</h5>
@@ -23,7 +28,7 @@ include "headblack.php";
     </div>
   </div>
 
-  <div class="card text-white bg-secondary" style="width: 20rem;">
+  <div class="card text-white bg-secondary ">
     <img src="img/article.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Articles</h5>
@@ -31,8 +36,9 @@ include "headblack.php";
       <a href="#" class="btn btn-primary">Allez voir les articles</a>
     </div>
   </div>
+  </div>
 </div>
-
+</div>
 
 <?php
 include "footerblack.php";

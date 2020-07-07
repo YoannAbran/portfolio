@@ -3,11 +3,11 @@ include "header.php";
 include "headwhite.php";
 ?>
 
-<div id = "bodyproject" class="d-flex justify-content-center">
+<div class="bodyblack containeur-fluid d-flex justify-content-center">
 
 
 <div class="carousel d-flex flex-column justify-content-center">
-	<figure>
+	<figure class="img-fluid">
 		<img src="img/laptop.jpg" alt="">
 		<img src="img/article.jpg" alt="">
 		<img src="img/projet.jpg" alt="">
@@ -20,7 +20,7 @@ include "headwhite.php";
 </div>
 </div>
 
-<script src="projet-carou.js"></script>
+<script src="js/projet-carou.js"></script>
 
 <?php
 include "footerwhite.php";
