@@ -14,12 +14,13 @@ include "headwhite.php";
           <div class="container d-flex flex-column align-items-center p-4 col-lg-6 col-xs">
             <form id = "mailform" class="form-row" action="" method="post">
               <div class="p-2">
+                <label class="col" for="">Nom</label>
+                <input class="col" type = "text">
                 <label class="col" for="">Email</label>
                 <input class="col" type = "email">
               </div>
               <div class="p-2">
-                <textarea class="col" rows="4" cols="50" name="comment" form="mailform">
-                  Entrer votre texte ...</textarea>
+                <textarea class="col" rows="4" cols="60" name="comment" form="mailform">Entrer votre commentaire ...</textarea>
                 </div>
                 <div class="p-2">
                   <button type="submit" class="col btn ">Envoyer</button>
