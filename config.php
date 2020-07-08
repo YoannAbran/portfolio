@@ -1,13 +1,14 @@
 <?php
 try {
-    $dbh = new PDO('mysql:host=localhost;dbname=test', 'root', null);
-    foreach($dbh->query('SELECT * from tests') as $row) {
-        print_r($row);
-    }
+    $dbh = new PDO('mysql:host=127.0.0.1;port=3306;dbname=test;charset=utf8','root','');
 
-    $dbh = null;
+    // foreach($sql as $row) {
+    //     print_r($row);
+    // }
+    echo "success";
+    // $dbh = null;
 } catch (PDOException $e) {
-    print "Erreur !: " . $e->getMessage() . "<br/>";
+    echo "Erreur !: " . $e->getMessage() . "<br/>";
     die();
 }
 ?>
